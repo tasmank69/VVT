@@ -1,0 +1,290 @@
+.header {
+    text-align: center;
+    font-size: 40px;
+}
+@font-face {
+  font-family: 'Recursive Sans Linear';
+  src: url('../fonts/Recursive/Recursive-SansLinearLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;}
+
+.current {
+  color: #f1f1f1 !important;
+}
+.logo {
+    height: 40px !important;
+    float: right;
+}
+header {
+    height: 40px !important;
+    position: fixed;
+}
+div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+} 
+
+.inset {
+  
+  margin-left: 30px;
+  font-size: 120px;
+  position: relative;
+  font-family: 'Recursive Sans Linear';
+  
+}
+
+.content {
+  font-family: "Roboto_Mono";
+  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+#form div[data-role="form-footer"] {
+  visibility: hidden !important;
+  width: 0px;
+}
+
+.dropbtn {
+  background-color: #787878;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.99;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+#scrollToTopBtn {
+  background-color: purple;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 48px;
+  height: 60px;
+  width: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.dropdown {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+footer {
+  background-color:#343a40;
+}
+
+.image{
+  object-fit: cover; 
+  height: 400px !important;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.icon {
+  size: auto;
+  width: 80px;
+  align-items: center;
+}
+
+
+
+.responsive {
+  margin-top: 10px;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  color: #ccc;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 1;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+.title {
+  text-align: center;
+  margin-top: -200px;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.VVT {
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  color: purple !important;
+  text-decoration: none;
+}
+
+h1 {
+  width: 50%;
+  float: right;
+  margin-right: 25%;
+  text-align: center;
+  margin-top: 176px;
+  color: white;
+}
+
+.parallax {
+  background-image: url("../img/632514-1090x610.jpg");
+  opacity: 1;
+  height: 400px; 
+  width: 100%;
+  margin-top: 55px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.darallax {
+  background-image: url("../img/798906.jpg");
+  opacity: 1;
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

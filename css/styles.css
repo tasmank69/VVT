@@ -147,7 +147,6 @@ html {
   .sidenav a {font-size: 18px;}
 }
 .dropdown {
-  float: left;
   position: relative;
   display: inline-block;
 }
@@ -266,15 +265,15 @@ h1 {
 }
 
 .parallax {
-  background-image: url("../img/632514-1090x610.jpg");
+  background-image: url("../img/632514-1090x610.png");
+  background-size: 100%;
   opacity: 1;
-  height: 400px; 
+  height: 334px; 
   width: 100%;
   margin-top: 55px;
   background-attachment: fixed;
-  background-position: center;
+  background-position:0% 15%;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .darallax {
@@ -284,6 +283,33 @@ h1 {
   width: 100%;
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.opentimes {
+  width: 35%;
+  
+}
+
+.times {
+  border-color: #787878;
+  border-style: solid;
+  border-width: 3px;
+  width: 70%;
+}
+
+.carallax {
+  background-image: url("../img/VVT/31.jpg");
+  opacity: 1;
+  height: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: 0% 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }

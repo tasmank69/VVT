@@ -18,7 +18,7 @@
     Host: "smtp.gmail.com",
     Username : mailSender,
     Password : "villagevintagetreasure",
-    To : "tasman.keenan@kamohigh.school.nz",
+    To : "mark.turton@kamohigh.school.nz",
     From : mailSender,
     Subject : title + ", From: " + name,
     Body : message,

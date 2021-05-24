@@ -1,347 +1,354 @@
-.header {
-    text-align: center;
-    font-size: 40px;
+#form div[data-role="form-footer"]
+{
+	visibility: hidden !important;
+	width: 0px;
 }
-
-.logofooter {
-  height: 80px;
-
+#openclose
+{
+	font-style: oblique;
 }
-@font-face {
-  font-family: 'Recursive Sans Linear';
-  src: url('../fonts/Recursive/Recursive-SansLinearLight.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;}
-
-.current {
-  color: #f1f1f1 !important;
+#scrollToTopBtn
+{
+	background-color: purple;
+	border: none;
+	border-radius: 100%;
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	height: 60px;
+	line-height: 48px;
+	width: 60px;
 }
-.logo {
-    height: 40px !important;
-    float: right;
+#sign
+{
+	border-radius: 1em;
+	border-style: solid;
+	border-width: 1rem;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	width: 50%;
 }
-header {
-    height: 40px !important;
-    position: fixed;
+*
+{
+	box-sizing: border-box;
 }
-div.elem-group {
-  margin: 40px 0;
+.carallax
+{
+	background-attachment: fixed;
+	background-image: url("../img/VVT/31.jpg");
+	background-position: 0% 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	opacity: 1;
+	width: 100%;
 }
-
-label {
-  display: block;
-  font-family: 'Aleo';
-  padding-bottom: 4px;
-  font-size: 1.25em;
+.clearfix:after
+{
+	clear: both;
+	content: "";
+	display: table;
 }
-
-input, select, textarea {
-  border-radius: 2px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  width: 500px;
-  padding: 8px;
+.col-md-4
+{
+	margin-top: 10px;
 }
-
-textarea {
-  height: 250px;
+.content
+{
+	font-family: "Roboto_Mono";
+	src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
-
-button {
-  height: 50px;
-  background: green;
-  color: white;
-  border: 2px solid darkgreen;
-  font-size: 1.25em;
-  font-family: 'Aleo';
-  border-radius: 4px;
-  cursor: pointer;
+.current
+{
+	color: #f1f1f1 !important;
 }
-
-button:hover {
-  border: 2px solid black;
-} 
-
-.inset {
-  
-  margin-left: 30px;
-  font-size: 10vw;
-  position: relative;
-  font-family: 'Recursive Sans Linear';
-  
+.darallax
+{
+	background-attachment: fixed;
+	background-image: url("../img/Vinyl\ VVT.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	opacity: 1;
+	width: 100%;
 }
-
-.content {
-  font-family: "Roboto_Mono";
-  src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+.dropbtn
+{
+	background-color: #787878;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 16px;
 }
-
-#form div[data-role="form-footer"] {
-  visibility: hidden !important;
-  width: 0px;
+.dropdown
+{
+	display: inline-block;
+	position: relative;
 }
-
-.dropbtn {
-  background-color: #787878;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.dropdown a:hover
+{
+	background-color: #ddd;
 }
-
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  opacity: 0.99;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  text-align:center;
+.dropdown-content
+{
+	background-color: #f1f1f1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+	min-width: 160px;
+	overflow: auto;
+	position: absolute;
+	right: 1;
+	z-index: 1;
 }
-
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-
+.dropdown-content a
+{
+	color: black;
+	display: block;
+	padding: 12px 16px;
+	text-decoration: none;
 }
-
-#scrollToTopBtn {
-  background-color: purple;
-  border: none;
-  border-radius: 100%;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
-  line-height: 48px;
-  height: 60px;
-  width: 60px;
+.header
+{
+	font-size: 40px;
+	text-align: center;
 }
-
-html {
-  scroll-behavior: smooth;
+.icon
+{
+	align-items: center;
+	size: auto;
+	width: 80px;
 }
-
-.sidenav a:hover{
-  color: #f1f1f1;
+.image
+{
+	height: 400px !important;
+	object-fit: cover;
 }
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.inset
+{
+	font-family: 'Recursive Sans Linear';
+	font-size: 10vw;
+	margin-left: 30px;
+	position: relative;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.logo
+{
+	float: right;
+	height: 40px !important;
 }
-.dropdown {
-  position: relative;
-  display: inline-block;
+.logofooter
+{
+	height: 80px;
 }
-
-.col-md-4 {
-  margin-top: 10px;
+.opentimes
+{
+	height: 100%;
+	width: 35%;
 }
-
-form {
-  margin-bottom: 10px;
+.parallax
+{
+	background-attachment: fixed;
+	background-image: url("../img/VVT.png");
+	background-position: 0% 15%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 334px;
+	margin-top: 55px;
+	opacity: 1;
+	width: 100%;
 }
-
-footer {
-  margin-bottom: -20px;
-  background-color:#343a40;
+.responsive
+{
+	color: #ccc;
+	float: left;
+	margin-top: 10px;
+	padding: 0 6px;
+	width: 24.99999%;
 }
-
-.image{
-  object-fit: cover; 
-  height: 400px !important;
+.row
+{
+	font-family: Arial, Helvetica, sans-serif;
 }
-
-div.gallery {
-  border: 1px solid #ccc;
+.show
+{
+	display: block;
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
+.sidenav
+{
+	background-color: #111;
+	height: 100%;
+	left: 0;
+	opacity: 0.99;
+	overflow-x: hidden;
+	padding-top: 60px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	transition: 0.5s;
+	width: 0;
+	z-index: 1;
 }
-
-div.gallery img {
-  width: 100%;
-  height: auto;
+.sidenav .closebtn
+{
+	font-size: 36px;
+	margin-left: 50px;
+	position: absolute;
+	right: 25px;
+	top: 0;
 }
-
-div.desc {
-  padding: 15px;
-  text-align: center;
+.sidenav a
+{
+	color: #818181;
+	display: block;
+	font-size: 25px;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	transition: 0.3s;
 }
-
-* {
-  box-sizing: border-box;
+.sidenav a:hover
+{
+	color: #f1f1f1;
 }
-
-.icon {
-  size: auto;
-  width: 80px;
-  align-items: center;
+.times
+{
+	border-color: #787878;
+	border-style: solid;
+	border-width: 3px;
+	font-size: 24px;
+	height: 100%;
+	width: 100%;
 }
-
-
-
-.responsive {
-  margin-top: 10px;
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-  color: #ccc;
+.title
+{
+	background-color: #ddd;
+	margin-top: -200px;
+	opacity: 1;
+	text-align: center;
 }
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+.VVT
+{
+	color: purple !important;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
 }
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+@font-face
+{
+	font-family: 'Recursive Sans Linear';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/Recursive/Recursive-SansLinearLight.ttf') format('truetype');
 }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+@media only screen and (max-width: 500px)
+{
+	.responsive
+	{
+		width: 100%;
+	}
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  right: 1;
-  z-index: 1;
+@media only screen and (max-width: 700px)
+{
+	.responsive
+	{
+		margin: 6px 0;
+		width: 49.99999%;
+	}
 }
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+@media screen and (max-height: 450px)
+{
+	.sidenav
+	{
+		padding-top: 15px;
+	}
+	.sidenav a
+	{
+		font-size: 18px;
+	}
 }
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-
-
-.title {
-  text-align: center;
-  margin-top: -200px;
-  opacity: 1;
-  background-color: #ddd;
+button
+{
+	background: green;
+	border: 2px solid darkgreen;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Aleo';
+	font-size: 1.25em;
+	height: 50px;
 }
-
-.VVT {
-  text-align: center;
-  font-weight: bold;
-  font-size: 70px;
-  color: purple !important;
-  text-decoration: none;
+button:hover
+{
+	border: 2px solid black;
 }
-
-h1 {
-  width: 50%;
-  float: right;
-  margin-right: 25%;
-  text-align: center;
-  margin-top: 176px;
-  color: white;
+div.desc
+{
+	padding: 15px;
+	text-align: center;
 }
-
-.parallax {
-  background-image: url("../img/VVT.png");
-  background-size: 100%;
-  opacity: 1;
-  height: 334px; 
-  width: 100%;
-  margin-top: 55px;
-  background-attachment: fixed;
-  background-position:0% 15%;
-  background-repeat: no-repeat;
+div.elem-group
+{
+	margin: 40px 0;
 }
-
-.darallax {
-  background-image: url("../img/Vinyl\ VVT.jpg");
-  opacity: 1;
-  height: 200px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+div.gallery
+{
+	border: 1px solid #ccc;
 }
-
-.row {
-  font-family: Arial, Helvetica, sans-serif;
+div.gallery img
+{
+	height: auto;
+	width: 100%;
 }
-
-#openclose {
-  font-style: oblique;
+div.gallery:hover
+{
+	border: 1px solid #777;
 }
-
-.opentimes {
-  width: 35%;
-  
-  height: 100%;
-  
+footer
+{
+	background-color: #343a40;
+	margin-bottom: -20px;
 }
-
-#sign {
-  border-style: solid;
-  border-radius: 1em;
-  border-width: 1rem;
-  width: 50%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+form
+{
+	margin-bottom: 10px;
 }
-
-.times {
-  height: 100%;
-  font-size: 24px;
-  border-color: #787878;
-  border-style: solid;
-  border-width: 3px;
-  width: 100%;
+h1
+{
+	color: white;
+	float: right;
+	margin-right: 25%;
+	margin-top: 176px;
+	text-align: center;
+	width: 50%;
 }
-
-.carallax {
-  background-image: url("../img/VVT/31.jpg");
-  opacity: 1;
-  height: 200px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: 0% 25%;
-  background-repeat: no-repeat;
-  background-size: cover;
+header
+{
+	height: 40px !important;
+	position: fixed;
 }
-
+html
+{
+	scroll-behavior: smooth;
+}
+input, select, textarea
+{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	font-family: 'Aleo';
+	font-size: 1.25em;
+	padding: 8px;
+	width: 500px;
+}
+label
+{
+	display: block;
+	font-family: 'Aleo';
+	font-size: 1.25em;
+	padding-bottom: 4px;
+}
+textarea
+{
+	height: 250px;
+}
